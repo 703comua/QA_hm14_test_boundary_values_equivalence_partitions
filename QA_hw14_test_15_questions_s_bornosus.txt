@@ -1,0 +1,31 @@
+в 10-м вопросе опечатка в ответе a и b (вместо "11 Deg. C" => "-11 Deg. C")
+
+1 - d
+2 - с
+3 - d
+4 - c
+5 - c
+6 - a
+7 - c
+8 - a
+9 - c
+10 - a
+если в ответе A поправить опечатку
+вместо
+11 Deg. C, -1 Deg. C, 18 Deg. C, 27 Deg. C, 51 Deg. C
+сделать
+-11 Deg. C, -1 Deg. C, 18 Deg. C, 27 Deg. C, 51 Deg. C
+то правильный ответ в 10-м вопрсое - a
+11 - d
+12 - d
+13 - a
+14 - c
+15 - d
+
+echo "# QA_hm14_test_boundary_values_equivalence_partitions" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/703comua/QA_hm14_test_boundary_values_equivalence_partitions.git
+git push -u origin main
